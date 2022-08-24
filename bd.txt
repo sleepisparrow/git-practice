@@ -1,4 +1,3 @@
 sender: a
-receiver: b
-
+receiver: c
 hello there

@@ -31,7 +31,18 @@ git checkout -> git switch, git restore로 바뀜
 git merge vs git rebase
 머지 - 커밋 하나를 자동으로 만들어서 둘 합쳐지는 애의 수정 내용들을 모두 합쳐버림.
 사용 내역이 커밋으로 남음
+merge를 하면 둘다 시점이 통일되게 됨
 
 rebase - 특정 브랜치의 모든 것을 다른 브랜치에 이어 붙여버린다.
 안남음 협업할때 조심
+rebase는 작은 거에서 큰 거를 넣는 방식
+rebas는 서로 시점이 통일이 되지 않음
+main이 뒤에 있음
+git switch main -> git merge c를 해서 시점읕 통일시킬 수 있음
+
+
+
+CONFLICT (충돌)
+같은 파일에서 다른 내용이 입력되려는 상황에서 충돌이 발생
+
 
