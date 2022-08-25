@@ -1,4 +1,1 @@
-sender: a
-receiver: b
-
-hello there
+원격 저장소에서 내용 수정
